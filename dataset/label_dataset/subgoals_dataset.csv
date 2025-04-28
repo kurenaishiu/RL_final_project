@@ -1,0 +1,21 @@
+scene_id,observation,subgoal
+scene0,"You are facing at South
+You do not see an exit",Explore
+scene1,"You are facing at North
+You see an exit",GoToExit
+scene2,"You are facing at East
+You do not see an exit",Explore
+scene3,"You are facing at North
+You see an exit",GoToExit
+scene4,"You are facing at West
+You do not see an exit",Explore
+scene5,"You are facing at North
+You see an exit",GoToExit
+scene6,"You are facing at South
+You do not see an exit",Explore
+scene7,"You are facing at South
+You do not see an exit",Explore
+scene8,"You are facing at East
+You do not see an exit",Explore
+scene9,"You are facing at East
+You see an exit",GoToExit

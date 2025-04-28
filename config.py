@@ -1,0 +1,2 @@
+OPENAI_API_KEY="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"
+GOOGLE_API_KEY="AIzaSyBhnxF0uaf3a0CnC9TxCuCbVLtkvIZhtsk"
