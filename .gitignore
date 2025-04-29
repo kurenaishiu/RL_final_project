@@ -6,6 +6,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+ppo_student_tensorboard/
 
 
 .vscode/
