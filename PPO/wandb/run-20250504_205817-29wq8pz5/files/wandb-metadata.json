@@ -1,0 +1,41 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-05-04T12:58:17.963471Z",
+  "program": "/home/ricky/Desktop/RL/RL_final_project/PPO/PPO.py",
+  "codePath": "PPO/PPO.py",
+  "git": {
+    "remote": "https://github.com/kurenaishiu/RL_final_project.git",
+    "commit": "9b9b377a2312b9ba29052f89792b5ad71921c3f2"
+  },
+  "email": "rickychouw.mg10@nycu.edu.tw",
+  "root": "/home/ricky/Desktop/RL/RL_final_project/PPO",
+  "host": "Ricky030",
+  "executable": "/home/ricky/Desktop/RL/venv/bin/python",
+  "codePathLocal": "PPO.py",
+  "cpu_count": 12,
+  "cpu_count_logical": 24,
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "14319190016"
+    }
+  },
+  "memory": {
+    "total": "16652967936"
+  },
+  "cpu": {
+    "count": 12,
+    "countLogical": 24
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Ti",
+      "memoryTotal": "8589934592",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

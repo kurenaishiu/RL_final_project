@@ -1,0 +1,32 @@
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_setup.py:_flush():68] Configure stats pid to 2898
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_setup.py:_flush():68] Loading settings from /home/ricky/.config/wandb/settings
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_setup.py:_flush():68] Loading settings from /home/ricky/Desktop/RL/RL_final_project/PPO/wandb/settings
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/ricky/Desktop/RL/RL_final_project/PPO/wandb/run-20250504_205817-29wq8pz5/logs/debug.log
+2025-05-04 20:58:17,960 INFO    MainThread:2898 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/ricky/Desktop/RL/RL_final_project/PPO/wandb/run-20250504_205817-29wq8pz5/logs/debug-internal.log
+2025-05-04 20:58:17,961 INFO    MainThread:2898 [wandb_init.py:init():852] calling init triggers
+2025-05-04 20:58:17,961 INFO    MainThread:2898 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'env_name': 'MiniGrid-Empty-5x5-v0', 'agent_view_size': 3, 'max_steps': 25, 'total_timesteps': 30000, 'policy': 'CnnPolicy', 'features_dim': 128, '_wandb': {'code_path': 'code/PPO/PPO.py'}}
+2025-05-04 20:58:17,961 INFO    MainThread:2898 [wandb_init.py:init():893] starting backend
+2025-05-04 20:58:17,961 INFO    MainThread:2898 [wandb_init.py:init():897] sending inform_init request
+2025-05-04 20:58:17,963 INFO    MainThread:2898 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-04 20:58:17,963 INFO    MainThread:2898 [wandb_init.py:init():907] backend started and connected
+2025-05-04 20:58:17,963 INFO    MainThread:2898 [wandb_init.py:init():1002] updated telemetry
+2025-05-04 20:58:17,965 INFO    MainThread:2898 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-04 20:58:18,783 INFO    MainThread:2898 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-04 20:58:18,832 INFO    MainThread:2898 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-04 20:58:18,832 INFO    MainThread:2898 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-04 20:58:18,832 INFO    MainThread:2898 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-04 20:58:18,832 INFO    MainThread:2898 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-04 20:58:18,833 INFO    MainThread:2898 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-04 20:58:19,970 INFO    MainThread:2898 [wandb_run.py:_tensorboard_callback():1638] tensorboard callback: runs/29wq8pz5/PPO_1, True
+2025-05-04 20:58:19,972 INFO    MainThread:2898 [wandb_run.py:_config_callback():1429] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticCnnPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'features_extractor_class': <class '__main__.MinigridFeaturesExtractor'>, 'features_extractor_kwargs': {'features_dim': 128}}", 'num_timesteps': 0, '_total_timesteps': 30000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1746363499970031833, 'learning_rate': 0.0003, 'tensorboard_log': 'runs/29wq8pz5', '_last_obs': '[[[[2 5 0]\n   [2 5 0]\n   [2 5 0]]\n\n  [[1 0 0]\n   [1 0 0]\n   [1 0 0]]\n\n  [[1 0 0]\n   [1 0 0]\n   [1 0 0]]]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x7ff8e1bcc340>', '_vec_normalize_env': 'None', 'observation_space': 'Box(0, 255, (3, 3, 3), uint8)', 'action_space': 'Discrete(7)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'batch_size': 64, 'n_epochs': 10, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x7ff89d356320>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x7ff8eb555c60>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x7ff8e1bcd6f0>', '_logger': '<stable_baselines3.common.logger.Logger object at 0x7ff89d36cbe0>'}
+2025-05-04 20:59:18,421 INFO    MainThread:2898 [sb3.py:save_model():147] [no run ID] Saving model checkpoint to models/29wq8pz5/model.zip
+2025-05-04 20:59:18,427 INFO    MainThread:2898 [wandb_run.py:_finish():2314] finishing run rickychouw-mg10-national-yang-ming-chiao-tung-university/MiniGrid/29wq8pz5
+2025-05-04 20:59:18,427 INFO    MainThread:2898 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-05-04 20:59:18,427 INFO    MainThread:2898 [wandb_run.py:_restore():2513] restore
+2025-05-04 20:59:18,427 INFO    MainThread:2898 [wandb_run.py:_restore():2519] restore done
+2025-05-04 20:59:22,006 INFO    MainThread:2898 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-05-04 20:59:22,007 INFO    MainThread:2898 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-05-04 20:59:22,007 INFO    MainThread:2898 [wandb_run.py:_footer_sync_info():4121] logging synced files

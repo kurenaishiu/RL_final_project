@@ -1,0 +1,18 @@
+{"time":"2025-05-04T20:58:17.964758625+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/ricky/Desktop/RL/RL_final_project/PPO/wandb/run-20250504_205817-29wq8pz5/logs/debug-core.log"}
+{"time":"2025-05-04T20:58:18.426697938+08:00","level":"INFO","msg":"created new stream","id":"29wq8pz5"}
+{"time":"2025-05-04T20:58:18.42672469+08:00","level":"INFO","msg":"stream: started","id":"29wq8pz5"}
+{"time":"2025-05-04T20:58:18.426743172+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"29wq8pz5"}
+{"time":"2025-05-04T20:58:18.426768481+08:00","level":"INFO","msg":"handler: started","stream_id":"29wq8pz5"}
+{"time":"2025-05-04T20:58:18.42711527+08:00","level":"INFO","msg":"sender: started","stream_id":"29wq8pz5"}
+{"time":"2025-05-04T20:58:18.785261381+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-04T20:58:18.78576059+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-05-04T20:58:29.971943568+08:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-05-04T20:59:18.428255629+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-04T20:59:18.428285483+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-04T20:59:19.429169589+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":0.74967157,"progress":"1.4MB/2.0MB"},{"desc":"uploading config.yaml","runtime_seconds":0.503197194,"progress":"2.9KB/2.9KB"},{"desc":"uploading runs/29wq8pz5/PPO_1/events.out.tfevents.1746363499.Ricky030.2898.0","runtime_seconds":0.275877271,"progress":"9.6KB/9.6KB"}],"total_operations":3}}
+{"time":"2025-05-04T20:59:21.7311464+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-04T20:59:22.007696547+08:00","level":"INFO","msg":"stream: closing","id":"29wq8pz5"}
+{"time":"2025-05-04T20:59:22.00770332+08:00","level":"INFO","msg":"handler: closed","stream_id":"29wq8pz5"}
+{"time":"2025-05-04T20:59:22.007707154+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"29wq8pz5"}
+{"time":"2025-05-04T20:59:22.007741151+08:00","level":"INFO","msg":"sender: closed","stream_id":"29wq8pz5"}
+{"time":"2025-05-04T20:59:22.007744603+08:00","level":"INFO","msg":"stream: closed","id":"29wq8pz5"}

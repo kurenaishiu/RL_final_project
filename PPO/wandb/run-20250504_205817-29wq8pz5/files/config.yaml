@@ -1,0 +1,144 @@
+_current_progress_remaining:
+    value: 1
+_custom_logger:
+    value: "False"
+_episode_num:
+    value: 0
+_last_episode_starts:
+    value: '[ True]'
+_last_obs:
+    value: |-
+        [[[[2 5 0]
+           [2 5 0]
+           [2 5 0]]
+
+          [[1 0 0]
+           [1 0 0]
+           [1 0 0]]
+
+          [[1 0 0]
+           [1 0 0]
+           [1 0 0]]]]
+_last_original_obs:
+    value: None
+_logger:
+    value: <stable_baselines3.common.logger.Logger object at 0x7ff89d36cbe0>
+_n_updates:
+    value: 0
+_num_timesteps_at_start:
+    value: 0
+_stats_window_size:
+    value: 100
+_total_timesteps:
+    value: 30000
+_vec_normalize_env:
+    value: None
+_wandb:
+    value:
+        cli_version: 0.19.10
+        code_path: code/PPO/PPO.py
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 2
+                - 3
+                - 16
+                - 22
+                - 23
+                - 35
+                - 55
+            "4": 3.10.12
+            "5": 0.19.10
+            "8":
+                - 5
+            "12": 0.19.10
+            "13": linux-x86_64
+action_noise:
+    value: None
+action_space:
+    value: Discrete(7)
+agent_view_size:
+    value: 3
+algo:
+    value: PPO
+batch_size:
+    value: 64
+clip_range:
+    value: <function get_schedule_fn.<locals>.<lambda> at 0x7ff89d356320>
+clip_range_vf:
+    value: None
+device:
+    value: cuda
+ent_coef:
+    value: 0
+env:
+    value: <stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x7ff8e1bcc340>
+env_name:
+    value: MiniGrid-Empty-5x5-v0
+ep_info_buffer:
+    value: deque([], maxlen=100)
+ep_success_buffer:
+    value: deque([], maxlen=100)
+features_dim:
+    value: 128
+gae_lambda:
+    value: 0.95
+gamma:
+    value: 0.99
+learning_rate:
+    value: 0.0003
+lr_schedule:
+    value: <function get_schedule_fn.<locals>.<lambda> at 0x7ff8eb555c60>
+max_grad_norm:
+    value: 0.5
+max_steps:
+    value: 25
+n_envs:
+    value: 1
+n_epochs:
+    value: 10
+n_steps:
+    value: 2048
+normalize_advantage:
+    value: "True"
+num_timesteps:
+    value: 0
+observation_space:
+    value: Box(0, 255, (3, 3, 3), uint8)
+policy:
+    value: CnnPolicy
+policy_class:
+    value: <class 'stable_baselines3.common.policies.ActorCriticCnnPolicy'>
+policy_kwargs:
+    value: '{''features_extractor_class'': <class ''__main__.MinigridFeaturesExtractor''>, ''features_extractor_kwargs'': {''features_dim'': 128}}'
+rollout_buffer:
+    value: <stable_baselines3.common.buffers.RolloutBuffer object at 0x7ff8e1bcd6f0>
+rollout_buffer_class:
+    value: <class 'stable_baselines3.common.buffers.RolloutBuffer'>
+rollout_buffer_kwargs:
+    value: '{}'
+sde_sample_freq:
+    value: -1
+seed:
+    value: None
+start_time:
+    value: 1746363499970031833
+target_kl:
+    value: None
+tensorboard_log:
+    value: runs/29wq8pz5
+total_timesteps:
+    value: 30000
+use_sde:
+    value: "False"
+verbose:
+    value: 1
+vf_coef:
+    value: 0.5

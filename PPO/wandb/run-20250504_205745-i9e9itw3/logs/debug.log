@@ -1,0 +1,17 @@
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_setup.py:_flush():68] Configure stats pid to 2467
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_setup.py:_flush():68] Loading settings from /home/ricky/.config/wandb/settings
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_setup.py:_flush():68] Loading settings from /home/ricky/Desktop/RL/RL_final_project/PPO/wandb/settings
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/ricky/Desktop/RL/RL_final_project/PPO/wandb/run-20250504_205745-i9e9itw3/logs/debug.log
+2025-05-04 20:57:45,968 INFO    MainThread:2467 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/ricky/Desktop/RL/RL_final_project/PPO/wandb/run-20250504_205745-i9e9itw3/logs/debug-internal.log
+2025-05-04 20:57:45,970 ERROR   MainThread:2467 [util.py:get_module():261] Error importing optional module tensorboard
+Traceback (most recent call last):
+  File "/home/ricky/Desktop/RL/venv/lib/python3.10/site-packages/wandb/util.py", line 254, in get_module
+    return import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tensorboard'
