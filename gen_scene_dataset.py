@@ -17,7 +17,7 @@ for i in range(10):
 
     print(obs_to_description(obs))
     with open(f"dataset/raw_dataset/scene{i}.txt", "w") as f:
-        f.write(obs_to_description(obs))
+        f.write(obs_to_description(obs, base_env))
     env.render()
     
     env.close()
